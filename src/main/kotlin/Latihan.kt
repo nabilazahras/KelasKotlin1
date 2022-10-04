@@ -12,11 +12,11 @@ fun main(){
         hargaParkir = (jamParkir * hargaAwal).toFloat()
     }else if ((jamParkir> 5) && (jamParkir <24 )) {
             hargaParkir= (5 + ((jamParkir-5)*hargaSelanjutnya)).toFloat()
-        } else if{
-        (jamParkir = 24) {
+        } else if (jamParkir = 24) {
             hargaParkir = (hargaMaksimal).toFloat()
         } else
         hargaParkir= (15 + ((jamParkir-24)*hargaSelanjutnya)).toFloat()
+
     println("Jam Parkir: $jamParkir ")
     println("Harga Parkir: $hargaParkir ")
 }
